@@ -154,8 +154,8 @@ const AgendaItem = (props: Props) => {
   return (
     <>
       <AgendaItemStyles
-        onMouseEnter={() => setIsHovering(true)}
-        onMouseLeave={() => setIsHovering(false)}
+        onMouseOver={() => setIsHovering(true)}
+        onMouseOut={() => setIsHovering(false)}
       >
         <MeetingSubnavItem
           label={content}
